@@ -14,6 +14,69 @@ padding: 0;
 position: relative;
 }
 
+
+.navbar {
+  overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 50px 0px;
+    width: 100%;
+}
+
+/* Style the navbar links */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .encabezado { 
     margin-top: 45px;
     margin-bottom: 15px;
@@ -25,16 +88,14 @@ position: relative;
 
 .logo img {
     max-width: 140px;
+    margin-left: 140px;
     
     
 }
 
 .amigos img{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  margin-right: 60px;
-  max-width: 600px;
+  float: right;
+  height: 100%;
 
 
 }
@@ -46,9 +107,8 @@ position: relative;
 }
 
 .cotiza{
-  position: absolute;
-  top: 250px;
-  left: 170px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 
@@ -97,11 +157,7 @@ position: relative;
 
 .efecto{
   width: 100%;
-  height: 555px;
-  position: relative;
-  display: flex;
-  align-items:end;
-  justify-content: right;
+  height: 600px;
   background-color: #1A7CC7;
   background-image: url(../img/sombra-fondo.png);
    background-size:cover;
@@ -209,21 +265,23 @@ position: relative;
 
 .texto{
   color: #ffffff;
+  margin-left: 160px;
+  min-width: 260px;
+
+
 }
 
 .texto h1{
   font-weight: bold;
-  position: absolute;
-  top: 20px;
-  left: 170px;
   font-size: 40px;
+  display: inline-block;
+ 
 }
 
 .texto p{
-  position: absolute;
-  top: 150px;
-  left: 170px;
+  
   font-size: 20px;
+  display: inline-block;
 }
 
 .texto ul{
@@ -397,20 +455,15 @@ position: relative;
 
 /* Add a black background color to the top navigation */
 .topnav {
-  margin-top: 85px;
+  margin-top: 55px;
   margin-bottom: 25px;
-  margin-right: 150px;
-    background-color:#1A7CC7;
-    overflow: hidden;
-    display: flex;
-    justify-content: right;
-
+  margin-right: 80px;
+  float: right;
 
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
     color: #2fa1f8;
     text-align: center;
     padding: 14px 13px;
