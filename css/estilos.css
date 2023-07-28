@@ -15,16 +15,16 @@ position: relative;
 }
 
 .encabezado { 
-    margin-top: 25px;
+    margin-top: 45px;
     margin-bottom: 15px;
-    margin-left: 90px;
+    margin-left: 150px;
     display: flex;
     align-items: center;
     position: absolute;
 }
 
 .logo img {
-    max-width: 160px;
+    max-width: 140px;
     
     
 }
