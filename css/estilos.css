@@ -319,6 +319,42 @@ position: relative;
 
 
 
+.aqui__texto4{
+  color: #535353;
+}
+
+.aqui__texto4 h1{
+  font-weight: bold;
+    color: #1A7CC7;
+    position: absolute;
+    top: 325px;
+    left: 51%;
+    font-size: 45px;
+}
+
+.aqui__texto4 p{
+  position: absolute;
+  top: 395px;
+  font-weight: bold;
+  left: 51%;
+  font-size: 25px;
+}
+
+
+
+.aqui__texto4 hr{
+  position: absolute !important; 
+    background-color: #FFAB47 !important;
+    border-color: transparent !important;
+    height: 9px !important;
+    top: 325px;
+    left: 51%;
+    width: 4%;
+
+}
+
+
+
 
 .travel{
   margin: 130px 0px 0px 0px;
@@ -450,14 +486,14 @@ position: relative;
   font-weight: bold;
     color: #1A7CC7;
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 51%;
     font-size: 45px;
 }
 
 .aqui__texto p{
   position: absolute;
-  top: 190px;
+  top: 140px;
   font-weight: bold;
   left: 51%;
   font-size: 25px;
@@ -474,7 +510,7 @@ position: relative;
     background-color: #FFAB47 !important;
     border-color: transparent !important;
     height: 9px !important;
-    top: 80px;
+    top: 70px;
     left: 51%;
     width: 4%;
 
