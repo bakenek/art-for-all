@@ -587,7 +587,15 @@ position: relative;
   border: 1px solid #ccc;
 }
 
+#amarillo{
+filter: invert(83%) sepia(8%) saturate(7288%) hue-rotate(324deg) brightness(104%) contrast(106%);
 
+}
+
+#azuul{
+filter:   invert(45%) sepia(37%) saturate(2041%) hue-rotate(179deg) brightness(81%) contrast(91%);
+
+}
 .img img {
     width: 55%;
     height: 115px;    
@@ -633,8 +641,8 @@ position: relative;
 }
 
 .pie__logo img{
-  margin: 25px 0 0px 40px;
-  max-width: 190px;
+  margin: 30px 0 0px 45px;
+  max-width: 125px;
 
 }
 
